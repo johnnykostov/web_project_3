@@ -1,0 +1,133 @@
+.place {
+    margin: 80px auto;
+    display: grid;
+    gap: 48px 40px;
+    grid-template-rows: auto auto 1fr;
+    grid-template-columns: 460px 1fr;
+    grid-template-areas:
+      "title website"
+      "image texts"
+      "button texts";
+  }
+  
+  .place__title {
+    margin: 0 auto;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    grid-area: title;
+  }
+  
+  .place__website {
+    margin: 0;
+    align-self: end;
+    grid-area: website;
+  }
+  .place__artist {
+    font-size: 12px;
+    line-height: 15px;
+    color: #aaaaaa;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .place__artist-name {
+    margin: 8px 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 22px;
+    list-style-type: none;
+   
+  }
+  .place__image {
+    margin: 0 auto;
+    grid-area: image;
+  }
+  .place__info {
+    margin: 0 auto;
+    grid-area: texts;
+  }
+  
+  .place__paragraph {
+    margin: 25px auto 0;
+    font-size: 18px;
+    line-height: 29.34px;
+  }
+  .place__paragraph:first-of-type {
+    margin: 0 auto;
+  }
+  
+  .place__button {
+    background-color: #0278fe;
+    border-radius: 4px;
+    max-width: 248px;
+    text-align: center;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-decoration: none;
+    display: block;
+    padding: 13px 0;
+    height: min-content;
+    grid-area: button;
+  }
+  .place__button:hover {
+    background-color: #0063d2;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .place {
+      grid-template-columns: 340px 1fr;
+      gap: 46px 28px;
+      max-width: 720px;
+    }
+    .place__title {
+      margin: 0;
+      font-size: 42px;
+      line-height: 46px;
+
+    }
+    .place__paragraph {
+      font-size: 16px;
+      line-height: 26.08px;
+    }
+    .place__image {
+      max-width: 340px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .place {
+      grid-template-columns: 1fr;
+      gap: 30px;
+      grid-template-areas:
+        "title"
+        "website"
+        "image"
+        "texts"
+        "button";
+    }
+    .place__title {
+      margin: auto;
+      font-size: 32px;
+      line-height: 35px;
+      min-width: 288px;
+    }
+  
+    .place__website {
+      margin: 0 auto;
+      max-width: 288px;
+    }
+    .place__image {
+      max-width: 100%;
+    }
+    .place__button {
+      margin: auto;
+      max-width: 288px;
+      padding: 13px 40px;
+    }
+    .place__info {
+      max-width: 288px;
+    }
+  }
