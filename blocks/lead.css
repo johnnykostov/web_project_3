@@ -19,6 +19,7 @@
     line-height: 36px;
     max-width: 720px;
     text-align: center;
+    font-weight: 400;
   }
   .lead__image {
     max-width: 100%;
