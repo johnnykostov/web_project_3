@@ -4,7 +4,7 @@
     max-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 105px auto 0;
+    margin: 92x auto 0;
     position: relative;
     min-height: 740px;
     display: flex;
@@ -70,6 +70,7 @@
   
   @media screen and (max-width: 960px) {
     .cover {
+      margin-top: 92px;
       min-height: 746px;
     }
   }
