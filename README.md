@@ -21,5 +21,5 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 
 **gitgub link**
 
-  https://github.com/johnnykostov/web_project_3.git
+  https://johnnykostov.github.io/web_project_3
 
