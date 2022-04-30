@@ -80,9 +80,8 @@
   
   @media screen and (max-width: 960px) {
     .place {
-      margin: 0 auto;
       grid-template-columns: 340px 1fr;
-      gap: 72px 28px;
+      gap: 46px 28px;
       max-width: 720px;
     }
     .place__title {
@@ -101,7 +100,6 @@
   
   @media screen and (max-width: 600px) {
     .place {
-      margin: 0px auto;
       grid-template-columns: 1fr;
       gap: 50px;
       grid-template-areas:
