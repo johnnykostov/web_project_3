@@ -80,8 +80,12 @@
   
   @media screen and (max-width: 960px) {
     .place {
+<<<<<<< HEAD
+=======
+      margin: 0px auto;
+>>>>>>> 7e9b182f3af292304500b7a4fa5ccf582d172021
       grid-template-columns: 340px 1fr;
-      gap: 46px 28px;
+      gap: 72px 28px;
       max-width: 720px;
     }
     .place__title {
@@ -101,8 +105,12 @@
   
   @media screen and (max-width: 600px) {
     .place {
+<<<<<<< HEAD
+=======
+      margin: 0px auto;
+>>>>>>> 7e9b182f3af292304500b7a4fa5ccf582d172021
       grid-template-columns: 1fr;
-      gap: 30px;
+      gap: 50px;
       grid-template-areas:
         "title"
         "website"
