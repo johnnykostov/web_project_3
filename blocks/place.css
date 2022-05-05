@@ -101,7 +101,7 @@
   @media screen and (max-width: 600px) {
     .place {
       grid-template-columns: 1fr;
-      gap: 50px;
+      gap: 30px;
       grid-template-areas:
         "title"
         "website"
